@@ -40,8 +40,10 @@ function updateCity(event) {
     return (
       <div>
         {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
+        <ul className="description">
+          <li>
+            Temperature: {Math.round(weather.temperature)}°C
+          </li>
           <li>Description: {weather.description}</li>
           <li>Wind: {weather.wind}km/h</li>
           <li>Humidity: {weather.humidity}%</li>
