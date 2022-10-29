@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Weather from "./Weather";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         <h1>Weather App</h1>
         <Weather city="Odesa" />
